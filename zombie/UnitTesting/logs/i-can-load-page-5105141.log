@@ -1,0 +1,17 @@
+I managed to load the page, This is the content of index page <html lang="en">
+  <head>
+    <title>Express</title>
+    <link href="/stylesheets/style.css" rel="stylesheet" />
+    <title>Test page</title>
+  </head>
+  <body>    <div class="content">
+      <p>This is some content to test</p>
+    </div>
+    <div id="container">
+      <form action="page" method="get" name="form">        <input name="username" type="text" />
+        <input name="password" type="text" />
+        <button type="submit" value="login" name="submitme"></button>
+      </form>
+    </div>
+  </body>
+</html>
